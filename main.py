@@ -25,6 +25,8 @@ class Dialog(QDialog):
         self.ui.btnDeletCont.clicked.connect(self.delet_btn_cont)
 
         self.ui.comboBox.currentIndexChanged.connect(self.on_activ_combobox)
+    def passs():
+        pass
 
     def get_data(self):
         return {
